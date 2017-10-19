@@ -1,10 +1,10 @@
-module Css.Preprocess exposing (..)
+module CssEl.Preprocess exposing (..)
 
 {-| A representation of the preprocessing to be done. The elm-css DSL generates
 the data structures found in this module.
 -}
 
-import Css.Structure as Structure exposing (MediaQuery, concatMapLast, mapLast)
+import CssEl.Structure as Structure exposing (MediaQuery, concatMapLast, mapLast)
 
 
 stylesheet : List Snippet -> Stylesheet

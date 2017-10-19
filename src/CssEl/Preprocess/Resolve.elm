@@ -1,12 +1,12 @@
-module Css.Preprocess.Resolve exposing (compile)
+module CssEl.Preprocess.Resolve exposing (compile)
 
 {-| Functions responsible for resolving Preprocess data structures into
 Structure data structures and gathering warnings along the way.
 -}
 
-import Css.Preprocess as Preprocess exposing (Snippet(Snippet), SnippetDeclaration, Style(AppendProperty, ExtendSelector, NestSnippet), unwrapSnippet)
-import Css.Structure as Structure exposing (mapLast)
-import Css.Structure.Output as Output
+import CssEl.Preprocess as Preprocess exposing (Snippet(Snippet), SnippetDeclaration, Style(AppendProperty, ExtendSelector, NestSnippet), unwrapSnippet)
+import CssEl.Structure as Structure exposing (mapLast)
+import CssEl.Structure.Output as Output
 import String
 import Tuple
 

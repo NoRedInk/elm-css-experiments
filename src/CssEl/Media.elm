@@ -1,4 +1,4 @@
-module Css.Media
+module CssEl.Media
     exposing
         ( Bits
         , CanHover
@@ -147,9 +147,9 @@ module Css.Media
 
 -}
 
-import Css
-import Css.Preprocess as Preprocess exposing (Style, unwrapSnippet)
-import Css.Structure as Structure exposing (..)
+import CssEl
+import CssEl.Preprocess as Preprocess exposing (Style, unwrapSnippet)
+import CssEl.Structure as Structure exposing (..)
 
 
 {-| One query of a media rule. A media rule can have multiple queries.

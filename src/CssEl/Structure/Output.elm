@@ -1,6 +1,6 @@
-module Css.Structure.Output exposing (prettyPrint)
+module CssEl.Structure.Output exposing (prettyPrint)
 
-import Css.Structure exposing (..)
+import CssEl.Structure exposing (..)
 import String
 
 

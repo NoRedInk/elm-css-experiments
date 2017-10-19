@@ -1,4 +1,4 @@
-module Css.Elements exposing (a, article, aside, audio, blockquote, body, button, canvas, caption, circle, code, col, colgroup, dd, div, dl, dt, ellipse, em, fieldset, footer, form, h1, h2, h3, h4, h5, h6, header, hr, html, i, img, input, label, legend, li, line, main_, menu, nav, ol, optgroup, option, p, path, polygon, polyline, pre, progress, q, rect, section, select, small, span, strong, svg, table, tbody, td, textarea, tfoot, th, thead, time, tr, typeSelector, ul, video)
+module CssEl.Elements exposing (a, article, aside, audio, blockquote, body, button, canvas, caption, circle, code, col, colgroup, dd, div, dl, dt, ellipse, em, fieldset, footer, form, h1, h2, h3, h4, h5, h6, header, hr, html, i, img, input, label, legend, li, line, main_, menu, nav, ol, optgroup, option, p, path, polygon, polyline, pre, progress, q, rect, section, select, small, span, strong, svg, table, tbody, td, textarea, tfoot, th, thead, time, tr, typeSelector, ul, video)
 
 {-| Selectors for HTML elements.
 
@@ -44,8 +44,8 @@ module Css.Elements exposing (a, article, aside, audio, blockquote, body, button
 
 -}
 
-import Css.Preprocess exposing (Snippet(Snippet), SnippetDeclaration(StyleBlockDeclaration), Style, StyleBlock(StyleBlock))
-import Css.Structure as Structure
+import CssEl.Preprocess exposing (Snippet(Snippet), SnippetDeclaration(StyleBlockDeclaration), Style, StyleBlock(StyleBlock))
+import CssEl.Structure as Structure
 
 
 {-| Define a custom element.

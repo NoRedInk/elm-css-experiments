@@ -199,7 +199,7 @@ itemprop, lang, spellcheck, tabindex
 
 -}
 
-import Css exposing (Style)
+import CssEl exposing (Style)
 import Html.Styled exposing (Attribute, Html)
 import Html.Styled.Internal as Internal exposing (InternalAttribute(InternalAttribute))
 import Json.Encode as Json

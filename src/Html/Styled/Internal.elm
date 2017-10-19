@@ -1,6 +1,6 @@
 module Html.Styled.Internal exposing (Classname, InternalAttribute(..), InternalHtml(..), classProperty, extractProperty, getClassname, mapAttribute, unstyle, unstyleKeyed)
 
-import Css exposing (Style)
+import CssEl exposing (Style)
 import Dict exposing (Dict)
 import Hex
 import Json.Encode

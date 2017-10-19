@@ -1,12 +1,12 @@
-module Css.Namespace exposing (namespace)
+module CssEl.Namespace exposing (namespace)
 
 {-| Namespacing
 @docs namespace
 -}
 
 import Css.Helpers exposing (identifierToString, toCssIdentifier)
-import Css.Preprocess as Preprocess exposing (Snippet(Snippet), SnippetDeclaration, Style(AppendProperty, ExtendSelector, NestSnippet), unwrapSnippet)
-import Css.Structure as Structure exposing (RepeatableSimpleSelector(ClassSelector, IdSelector, PseudoClassSelector), SimpleSelectorSequence(CustomSelector, TypeSelectorSequence, UniversalSelectorSequence), mapLast)
+import CssEl.Preprocess as Preprocess exposing (Snippet(Snippet), SnippetDeclaration, Style(AppendProperty, ExtendSelector, NestSnippet), unwrapSnippet)
+import CssEl.Structure as Structure exposing (RepeatableSimpleSelector(ClassSelector, IdSelector, PseudoClassSelector), SimpleSelectorSequence(CustomSelector, TypeSelectorSequence, UniversalSelectorSequence), mapLast)
 
 
 {-| takes an identifier, namespaces the list of snippets given with that identifier

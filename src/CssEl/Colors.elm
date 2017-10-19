@@ -1,8 +1,8 @@
-module Css.Colors exposing (aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, orange, purple, red, silver, teal, white, yellow)
+module CssEl.Colors exposing (aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, orange, purple, red, silver, teal, white, yellow)
 
 {-| A nicer default set of colors than the ones CSS ships with. Color codes taken from [clrs.cc](http://clrs.cc).
 
-    import Css.Colors exposing (..)
+    import CssEl.Colors exposing (..)
 
     stylesheet
       [ button
@@ -22,7 +22,7 @@ module Css.Colors exposing (aqua, black, blue, fuchsia, gray, green, lime, maroo
 
 -}
 
-import Css exposing (Color, hex)
+import CssEl exposing (Color, hex)
 
 
 {-| <img src="https://dummyimage.com/1x1/001f3f/001f3f.png" width="504px" height="40px">
