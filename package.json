@@ -10,7 +10,9 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "elm-test && cd tests && mocha *.js"
+    "test": "elm-test && cd tests && mocha *.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -33,7 +35,8 @@
     "chalk": "1.1.1",
     "commander": "2.9.0",
     "node-elm-compiler": "4.3.3",
-    "tmp": "0.0.28"
+    "tmp": "0.0.28",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "chai": "3.4.1",
@@ -42,5 +45,6 @@
   "engineStrict": true,
   "engines": {
     "node": ">=4.0.0"
-  }
+  },
+  "snyk": true
 }
